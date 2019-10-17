@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003667A5FE833B32AF93630D46C67248 /* Pods-PoporFFmpegCommand_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFB711140D856E67438A70B0E440C24 /* Pods-PoporFFmpegCommand_Example-dummy.m */; };
+		3A74D24CB4AC18505F704AD7DA2D4003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3F2672A081541C97EC7B4E8BC5F61FFA /* Pods-PoporFFmpegCommand_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9F320752820B49D7CA2BEC0CEFB5B4 /* Pods-PoporFFmpegCommand_Tests-dummy.m */; };
+		5F1C60AFACA1F1ECD2E0FB0609091E4D /* PoporFFmpegCommand-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF083C1D851AA92DCD7F9F2F2B8F5264 /* PoporFFmpegCommand-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		811FF0DFDE4F3B83A3B887361B601F5C /* PoporFFmpegCommand-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A0E3C5B9EFFF84A6712B78D4C967E1 /* PoporFFmpegCommand-dummy.m */; };
+		9E8A98C59FA4C16A12C2BC0F02DAA05D /* PoporFFmpegCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA6AEA0979393ED5EE38353D98D9F75 /* PoporFFmpegCommand.m */; };
+		BAFD78B10FBE792ECB87C2B49B89E1BA /* PoporFFmpegCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B63F167A2BB7032EE639916221DE04 /* PoporFFmpegCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA65C7A9DF5E29087EF454D012BD40A0 /* Pods-PoporFFmpegCommand_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AFC6A439ECEC3CB96C5F78AB3FE3F3F /* Pods-PoporFFmpegCommand_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4A30A54A4108359AE1E21DEDF7D5282 /* Pods-PoporFFmpegCommand_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAEA5203B77FAE52DD6AB394FE118C92 /* Pods-PoporFFmpegCommand_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2B57555CD91EC4B6D6B505D4815A771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F7437C278E2D977ABF2F888169D20D2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B03409EC4ED0055B13455F12FA23B53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE858923CAEC2E280A2DC111409B2A53;
+			remoteInfo = "Pods-PoporFFmpegCommand_Example";
+		};
+		F7A641697D18901B561306E6D93F64AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 666F225951E07A6667655CB6994CD283;
+			remoteInfo = PoporFFmpegCommand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022F3B1C7A76A9DF2A44DD42F7E581BA /* Pods-PoporFFmpegCommand_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporFFmpegCommand_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1079CCCC34B6B2AA21FA1D02365CAB1A /* PoporFFmpegCommand.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PoporFFmpegCommand.modulemap; sourceTree = "<group>"; };
+		1321E53BB1EE88A4E2E6807541447259 /* PoporFFmpegCommand-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PoporFFmpegCommand-Info.plist"; sourceTree = "<group>"; };
+		1AFC6A439ECEC3CB96C5F78AB3FE3F3F /* Pods-PoporFFmpegCommand_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PoporFFmpegCommand_Example-umbrella.h"; sourceTree = "<group>"; };
+		1BA6AEA0979393ED5EE38353D98D9F75 /* PoporFFmpegCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PoporFFmpegCommand.m; path = PoporFFmpegCommand/Classes/PoporFFmpegCommand.m; sourceTree = "<group>"; };
+		1F85754940119686AA0553D11CCE4932 /* PoporFFmpegCommand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PoporFFmpegCommand.framework; path = PoporFFmpegCommand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2118B4C44E7720EA96AE214C7C8A1D44 /* PoporFFmpegCommand-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporFFmpegCommand-prefix.pch"; sourceTree = "<group>"; };
+		24A0E3C5B9EFFF84A6712B78D4C967E1 /* PoporFFmpegCommand-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PoporFFmpegCommand-dummy.m"; sourceTree = "<group>"; };
+		25B682B8E7DFEEE6D9C728712FE2E971 /* Pods-PoporFFmpegCommand_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporFFmpegCommand_Example-Info.plist"; sourceTree = "<group>"; };
+		30C71FF6DBF73D59F7ECC6916D406E41 /* Pods-PoporFFmpegCommand_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PoporFFmpegCommand_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		455E6A8D7DA16B7DE70A46C68AC8EF8A /* PoporFFmpegCommand.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PoporFFmpegCommand.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4E9F320752820B49D7CA2BEC0CEFB5B4 /* Pods-PoporFFmpegCommand_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PoporFFmpegCommand_Tests-dummy.m"; sourceTree = "<group>"; };
+		503C542C2135D79885CAC6D59E270629 /* Pods-PoporFFmpegCommand_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporFFmpegCommand_Tests-Info.plist"; sourceTree = "<group>"; };
+		7FA6282B59FEDE50FEFBB9F5FB496AF8 /* Pods-PoporFFmpegCommand_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PoporFFmpegCommand_Example.modulemap"; sourceTree = "<group>"; };
+		868A1A78BCBCB3D7CC750B59115000A3 /* Pods-PoporFFmpegCommand_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporFFmpegCommand_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		99763CA6667E6101FB4697D19E631E41 /* Pods-PoporFFmpegCommand_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PoporFFmpegCommand_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EFB711140D856E67438A70B0E440C24 /* Pods-PoporFFmpegCommand_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PoporFFmpegCommand_Example-dummy.m"; sourceTree = "<group>"; };
+		A4F1AB63D14C6260CDE92843A678246E /* Pods-PoporFFmpegCommand_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporFFmpegCommand_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA195CCBA2D9061D9718F6B015E6B2CD /* Pods-PoporFFmpegCommand_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporFFmpegCommand_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AAEA5203B77FAE52DD6AB394FE118C92 /* Pods-PoporFFmpegCommand_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PoporFFmpegCommand_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ABABA6B3FA1FC51421BC923AFC851634 /* Pods_PoporFFmpegCommand_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PoporFFmpegCommand_Tests.framework; path = "Pods-PoporFFmpegCommand_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D1FCF12192A1652735F97817A86DF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C9E650DE47AF0B1E3920066EEDC42FAB /* Pods-PoporFFmpegCommand_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PoporFFmpegCommand_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CAB742246CBAFF70C18540524B47AC00 /* Pods-PoporFFmpegCommand_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoporFFmpegCommand_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF083C1D851AA92DCD7F9F2F2B8F5264 /* PoporFFmpegCommand-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporFFmpegCommand-umbrella.h"; sourceTree = "<group>"; };
+		D14BBE04F6F43D03997BBC9B196CCDC2 /* Pods-PoporFFmpegCommand_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoporFFmpegCommand_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D154CA057F02BA88BAE22C2728A425CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DA4F27BCB9590DC8A41452BC7D61D8CB /* Pods-PoporFFmpegCommand_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PoporFFmpegCommand_Tests.modulemap"; sourceTree = "<group>"; };
+		DBA4B3696E1BBEA6109C1197A02D4F47 /* PoporFFmpegCommand.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PoporFFmpegCommand.xcconfig; sourceTree = "<group>"; };
+		F4B63F167A2BB7032EE639916221DE04 /* PoporFFmpegCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PoporFFmpegCommand.h; path = PoporFFmpegCommand/Classes/PoporFFmpegCommand.h; sourceTree = "<group>"; };
+		FE86DF26FC4A570F6BDE84D9A451E7D0 /* Pods_PoporFFmpegCommand_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PoporFFmpegCommand_Example.framework; path = "Pods-PoporFFmpegCommand_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A37FE297ECD64AEFC01B8DA4590C4C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7437C278E2D977ABF2F888169D20D2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D0FDD409F2CADEDC47738FB83B0BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A74D24CB4AC18505F704AD7DA2D4003 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCF317099102D4A50E5E41FBC35FFA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B57555CD91EC4B6D6B505D4815A771 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		589F7D5B57ADF3D3A163B45B8AE876C4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D154CA057F02BA88BAE22C2728A425CE /* LICENSE */,
+				455E6A8D7DA16B7DE70A46C68AC8EF8A /* PoporFFmpegCommand.podspec */,
+				B7D1FCF12192A1652735F97817A86DF4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		63B17698C457C5CC2F7C6056D2FDC081 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1079CCCC34B6B2AA21FA1D02365CAB1A /* PoporFFmpegCommand.modulemap */,
+				DBA4B3696E1BBEA6109C1197A02D4F47 /* PoporFFmpegCommand.xcconfig */,
+				24A0E3C5B9EFFF84A6712B78D4C967E1 /* PoporFFmpegCommand-dummy.m */,
+				1321E53BB1EE88A4E2E6807541447259 /* PoporFFmpegCommand-Info.plist */,
+				2118B4C44E7720EA96AE214C7C8A1D44 /* PoporFFmpegCommand-prefix.pch */,
+				CF083C1D851AA92DCD7F9F2F2B8F5264 /* PoporFFmpegCommand-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PoporFFmpegCommand";
+			sourceTree = "<group>";
+		};
+		6CDCE5636B62CDF39CAAC2E8E8792F23 /* Pods-PoporFFmpegCommand_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7FA6282B59FEDE50FEFBB9F5FB496AF8 /* Pods-PoporFFmpegCommand_Example.modulemap */,
+				C9E650DE47AF0B1E3920066EEDC42FAB /* Pods-PoporFFmpegCommand_Example-acknowledgements.markdown */,
+				CAB742246CBAFF70C18540524B47AC00 /* Pods-PoporFFmpegCommand_Example-acknowledgements.plist */,
+				9EFB711140D856E67438A70B0E440C24 /* Pods-PoporFFmpegCommand_Example-dummy.m */,
+				30C71FF6DBF73D59F7ECC6916D406E41 /* Pods-PoporFFmpegCommand_Example-frameworks.sh */,
+				25B682B8E7DFEEE6D9C728712FE2E971 /* Pods-PoporFFmpegCommand_Example-Info.plist */,
+				1AFC6A439ECEC3CB96C5F78AB3FE3F3F /* Pods-PoporFFmpegCommand_Example-umbrella.h */,
+				AA195CCBA2D9061D9718F6B015E6B2CD /* Pods-PoporFFmpegCommand_Example.debug.xcconfig */,
+				D14BBE04F6F43D03997BBC9B196CCDC2 /* Pods-PoporFFmpegCommand_Example.release.xcconfig */,
+			);
+			name = "Pods-PoporFFmpegCommand_Example";
+			path = "Target Support Files/Pods-PoporFFmpegCommand_Example";
+			sourceTree = "<group>";
+		};
+		965DFFF0CECC34C29819D4FE0217B368 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CDCE5636B62CDF39CAAC2E8E8792F23 /* Pods-PoporFFmpegCommand_Example */,
+				CBF4DDC41EE6AAE4044BD2701A9AB6A5 /* Pods-PoporFFmpegCommand_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CBF4DDC41EE6AAE4044BD2701A9AB6A5 /* Pods-PoporFFmpegCommand_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DA4F27BCB9590DC8A41452BC7D61D8CB /* Pods-PoporFFmpegCommand_Tests.modulemap */,
+				99763CA6667E6101FB4697D19E631E41 /* Pods-PoporFFmpegCommand_Tests-acknowledgements.markdown */,
+				A4F1AB63D14C6260CDE92843A678246E /* Pods-PoporFFmpegCommand_Tests-acknowledgements.plist */,
+				4E9F320752820B49D7CA2BEC0CEFB5B4 /* Pods-PoporFFmpegCommand_Tests-dummy.m */,
+				503C542C2135D79885CAC6D59E270629 /* Pods-PoporFFmpegCommand_Tests-Info.plist */,
+				AAEA5203B77FAE52DD6AB394FE118C92 /* Pods-PoporFFmpegCommand_Tests-umbrella.h */,
+				868A1A78BCBCB3D7CC750B59115000A3 /* Pods-PoporFFmpegCommand_Tests.debug.xcconfig */,
+				022F3B1C7A76A9DF2A44DD42F7E581BA /* Pods-PoporFFmpegCommand_Tests.release.xcconfig */,
+			);
+			name = "Pods-PoporFFmpegCommand_Tests";
+			path = "Target Support Files/Pods-PoporFFmpegCommand_Tests";
+			sourceTree = "<group>";
+		};
+		CE3D420920F88F96CB441C27F509773B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD6808825BBA761F1A6F891DB498C604 /* PoporFFmpegCommand */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CE3D420920F88F96CB441C27F509773B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E6FC77794A420886D10C91E15A67B808 /* Products */,
+				965DFFF0CECC34C29819D4FE0217B368 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6FC77794A420886D10C91E15A67B808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE86DF26FC4A570F6BDE84D9A451E7D0 /* Pods_PoporFFmpegCommand_Example.framework */,
+				ABABA6B3FA1FC51421BC923AFC851634 /* Pods_PoporFFmpegCommand_Tests.framework */,
+				1F85754940119686AA0553D11CCE4932 /* PoporFFmpegCommand.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD6808825BBA761F1A6F891DB498C604 /* PoporFFmpegCommand */ = {
+			isa = PBXGroup;
+			children = (
+				F4B63F167A2BB7032EE639916221DE04 /* PoporFFmpegCommand.h */,
+				1BA6AEA0979393ED5EE38353D98D9F75 /* PoporFFmpegCommand.m */,
+				589F7D5B57ADF3D3A163B45B8AE876C4 /* Pod */,
+				63B17698C457C5CC2F7C6056D2FDC081 /* Support Files */,
+			);
+			name = PoporFFmpegCommand;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3EE07BA7DEE1D2C2D40EC61FAFBC861F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A30A54A4108359AE1E21DEDF7D5282 /* Pods-PoporFFmpegCommand_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AEA072FF747E65F4412E683C009A87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1C60AFACA1F1ECD2E0FB0609091E4D /* PoporFFmpegCommand-umbrella.h in Headers */,
+				BAFD78B10FBE792ECB87C2B49B89E1BA /* PoporFFmpegCommand.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFF27FC086BE4C4ECC6A2D9754D4F14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA65C7A9DF5E29087EF454D012BD40A0 /* Pods-PoporFFmpegCommand_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		666F225951E07A6667655CB6994CD283 /* PoporFFmpegCommand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9F3E1FBEA44FA8E77533BE78AE9CA41 /* Build configuration list for PBXNativeTarget "PoporFFmpegCommand" */;
+			buildPhases = (
+				43AEA072FF747E65F4412E683C009A87 /* Headers */,
+				2A4670268C8C249802EC15053A79D45F /* Sources */,
+				DCCF317099102D4A50E5E41FBC35FFA2 /* Frameworks */,
+				7435FE8B0AA1A36CC0E7C51257053C09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoporFFmpegCommand;
+			productName = PoporFFmpegCommand;
+			productReference = 1F85754940119686AA0553D11CCE4932 /* PoporFFmpegCommand.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA4CEC2CD4D31ADF09A864806A82933A /* Pods-PoporFFmpegCommand_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B376E7824FAA9144FA9D22F500A22BD /* Build configuration list for PBXNativeTarget "Pods-PoporFFmpegCommand_Tests" */;
+			buildPhases = (
+				3EE07BA7DEE1D2C2D40EC61FAFBC861F /* Headers */,
+				2928FA65BB27F261DBFE0FBA757ABF83 /* Sources */,
+				C6D0FDD409F2CADEDC47738FB83B0BD9 /* Frameworks */,
+				17B5996123B530D81805D0D14A6E9A86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4D923FAAD47CB2406A05432A16FC4F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-PoporFFmpegCommand_Tests";
+			productName = "Pods-PoporFFmpegCommand_Tests";
+			productReference = ABABA6B3FA1FC51421BC923AFC851634 /* Pods_PoporFFmpegCommand_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE858923CAEC2E280A2DC111409B2A53 /* Pods-PoporFFmpegCommand_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBFB7DA1A2457BB3124EB8CE2744D12 /* Build configuration list for PBXNativeTarget "Pods-PoporFFmpegCommand_Example" */;
+			buildPhases = (
+				8BFF27FC086BE4C4ECC6A2D9754D4F14 /* Headers */,
+				3CB54D91471ED11BC372527A938E1ED0 /* Sources */,
+				A37FE297ECD64AEFC01B8DA4590C4C1E /* Frameworks */,
+				039C1803BF8589F4136024E7635120C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65467F8028DC27631E52AD749539BDCB /* PBXTargetDependency */,
+			);
+			name = "Pods-PoporFFmpegCommand_Example";
+			productName = "Pods-PoporFFmpegCommand_Example";
+			productReference = FE86DF26FC4A570F6BDE84D9A451E7D0 /* Pods_PoporFFmpegCommand_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E6FC77794A420886D10C91E15A67B808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE858923CAEC2E280A2DC111409B2A53 /* Pods-PoporFFmpegCommand_Example */,
+				CA4CEC2CD4D31ADF09A864806A82933A /* Pods-PoporFFmpegCommand_Tests */,
+				666F225951E07A6667655CB6994CD283 /* PoporFFmpegCommand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		039C1803BF8589F4136024E7635120C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5996123B530D81805D0D14A6E9A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7435FE8B0AA1A36CC0E7C51257053C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2928FA65BB27F261DBFE0FBA757ABF83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2672A081541C97EC7B4E8BC5F61FFA /* Pods-PoporFFmpegCommand_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4670268C8C249802EC15053A79D45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811FF0DFDE4F3B83A3B887361B601F5C /* PoporFFmpegCommand-dummy.m in Sources */,
+				9E8A98C59FA4C16A12C2BC0F02DAA05D /* PoporFFmpegCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB54D91471ED11BC372527A938E1ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003667A5FE833B32AF93630D46C67248 /* Pods-PoporFFmpegCommand_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65467F8028DC27631E52AD749539BDCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PoporFFmpegCommand;
+			target = 666F225951E07A6667655CB6994CD283 /* PoporFFmpegCommand */;
+			targetProxy = F7A641697D18901B561306E6D93F64AF /* PBXContainerItemProxy */;
+		};
+		F4D923FAAD47CB2406A05432A16FC4F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PoporFFmpegCommand_Example";
+			target = EE858923CAEC2E280A2DC111409B2A53 /* Pods-PoporFFmpegCommand_Example */;
+			targetProxy = 7B03409EC4ED0055B13455F12FA23B53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		176FA44F0D679D5C340DEF49B0F23A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA4B3696E1BBEA6109C1197A02D4F47 /* PoporFFmpegCommand.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PoporFFmpegCommand/PoporFFmpegCommand-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PoporFFmpegCommand/PoporFFmpegCommand-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PoporFFmpegCommand/PoporFFmpegCommand.modulemap";
+				PRODUCT_MODULE_NAME = PoporFFmpegCommand;
+				PRODUCT_NAME = PoporFFmpegCommand;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6303301AD170632D881A51CC2DC9EFB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868A1A78BCBCB3D7CC750B59115000A3 /* Pods-PoporFFmpegCommand_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PoporFFmpegCommand_Tests/Pods-PoporFFmpegCommand_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoporFFmpegCommand_Tests/Pods-PoporFFmpegCommand_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		763EFEBB3A24AA4F00A6B10A8601DFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022F3B1C7A76A9DF2A44DD42F7E581BA /* Pods-PoporFFmpegCommand_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PoporFFmpegCommand_Tests/Pods-PoporFFmpegCommand_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoporFFmpegCommand_Tests/Pods-PoporFFmpegCommand_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77E217BC1A4577431C947575D1A41583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA4B3696E1BBEA6109C1197A02D4F47 /* PoporFFmpegCommand.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PoporFFmpegCommand/PoporFFmpegCommand-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PoporFFmpegCommand/PoporFFmpegCommand-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PoporFFmpegCommand/PoporFFmpegCommand.modulemap";
+				PRODUCT_MODULE_NAME = PoporFFmpegCommand;
+				PRODUCT_NAME = PoporFFmpegCommand;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B79166185D0058B3585865982B134C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D14BBE04F6F43D03997BBC9B196CCDC2 /* Pods-PoporFFmpegCommand_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PoporFFmpegCommand_Example/Pods-PoporFFmpegCommand_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoporFFmpegCommand_Example/Pods-PoporFFmpegCommand_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7EC5F6D8E974AFC4873673D63355A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA195CCBA2D9061D9718F6B015E6B2CD /* Pods-PoporFFmpegCommand_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PoporFFmpegCommand_Example/Pods-PoporFFmpegCommand_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PoporFFmpegCommand_Example/Pods-PoporFFmpegCommand_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B376E7824FAA9144FA9D22F500A22BD /* Build configuration list for PBXNativeTarget "Pods-PoporFFmpegCommand_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6303301AD170632D881A51CC2DC9EFB3 /* Debug */,
+				763EFEBB3A24AA4F00A6B10A8601DFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBFB7DA1A2457BB3124EB8CE2744D12 /* Build configuration list for PBXNativeTarget "Pods-PoporFFmpegCommand_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7EC5F6D8E974AFC4873673D63355A96 /* Debug */,
+				B79166185D0058B3585865982B134C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9F3E1FBEA44FA8E77533BE78AE9CA41 /* Build configuration list for PBXNativeTarget "PoporFFmpegCommand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176FA44F0D679D5C340DEF49B0F23A4F /* Debug */,
+				77E217BC1A4577431C947575D1A41583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

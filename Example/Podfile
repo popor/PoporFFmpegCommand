@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PoporFFmpegCommand_Example' do
+  pod 'PoporFFmpegCommand', :path => '../'
+
+  target 'PoporFFmpegCommand_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

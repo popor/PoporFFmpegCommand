@@ -1,0 +1,6 @@
+framework module PoporFFmpegCommand {
+  umbrella header "PoporFFmpegCommand-umbrella.h"
+
+  export *
+  module * { export * }
+}

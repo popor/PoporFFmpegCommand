@@ -1,0 +1,16 @@
+PODS:
+  - PoporFFmpegCommand (0.01)
+
+DEPENDENCIES:
+  - PoporFFmpegCommand (from `../`)
+
+EXTERNAL SOURCES:
+  PoporFFmpegCommand:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PoporFFmpegCommand: 6e79ee30a9f860f55af5f14ce3a38d1559c4a595
+
+PODFILE CHECKSUM: 599b179c5cf655f858b39e2fc0c2cd1ac34b191f
+
+COCOAPODS: 1.8.3
