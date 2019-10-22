@@ -17,10 +17,14 @@ PoporFFmpegCommand is available through [CocoaPods](https://cocoapods.org). To i
 it, simply add the following line to your Podfile:
 
 ```ruby
+
+使用步骤0
 pod 'mobile-ffmpeg-full', '3.1'
 pod 'PoporFFmpegCommand'
+```
 
-
+```
+使用步骤1
 #import <PoporFFmpegCommand/PoporFFmpegCommand.h>
 #import <mobileffmpeg/MobileFFmpegConfig.h>
 #import <mobileffmpeg/MobileFFmpeg.h>
@@ -43,6 +47,18 @@ pod 'PoporFFmpegCommand'
         });
     });
 }
+
+```
+
+```
+使用步骤2
+CGSize toSize  = CGSizeMake(540, 960);
+NSString * cmd = [PoporFFmpegTool ffmpegCommand_VideoPath:videoPath tSize:toSize tPath:toPath];
+[PoporFFmpeg_XXX executeCommand:cmd finish:^(BOOL executeFinish) {
+    if (finish) {
+        finish(executeFinish);
+    }
+}];
 
 ```
 
