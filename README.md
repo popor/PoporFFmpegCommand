@@ -29,6 +29,9 @@ pod 'PoporFFmpegCommand'
 #import <mobileffmpeg/MobileFFmpegConfig.h>
 #import <mobileffmpeg/MobileFFmpeg.h>
 
+
+@interface PoporFFmpegTool : PoporFFmpegCommand 
+
 + (void)executeCommand:(NSString * _Nonnull)ffmpegCommand finish:(void (^ __nullable)(BOOL executeFinish))finish {
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         //NSLog(@"FFmpeg process started with arguments\n\'%@\'\n", ffmpegCommand);
@@ -48,13 +51,15 @@ pod 'PoporFFmpegCommand'
     });
 }
 
+@end
+
 ```
 
 ```
 使用步骤2
 CGSize toSize  = CGSizeMake(540, 960);
 NSString * cmd = [PoporFFmpegTool ffmpegCommand_VideoPath:videoPath tSize:toSize tPath:toPath];
-[PoporFFmpeg_XXX executeCommand:cmd finish:^(BOOL executeFinish) {
+[PoporFFmpegTool executeCommand:cmd finish:^(BOOL executeFinish) {
     if (finish) {
         finish(executeFinish);
     }
